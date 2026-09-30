@@ -1,0 +1,9 @@
+# Decisions
+
+**Architecture.** A Python CLI and one OpenAI-compatible JSON client keep setup small and make each approval boundary explicit. A run is a local JSON state file plus editable plan and Markdown episodes; atomic replacement makes ordinary interruption recoverable without a database service.
+
+**Episode 150.** The writer does not put 149 full episodes in its prompt. It receives the approved arc and current act, the episode's planned beat, a cumulative rolling summary, durable character/fact/open-thread ledgers, the last five episode summaries, nearby future milestones, and editor guidance. This keeps context bounded while preserving both long-range direction and recent scene detail. The ledger and summary are model-maintained, so they remain reviewable but not infallible.
+
+**Human control and changed history.** The human approves the complete plan before drafting and approves every 400-700-word episode afterward. Edits can be supplied as files; feedback is retained for future prompts. Rewriting episode 40 extracts a new continuity delta, preserves the prior version, and marks episodes 41 onward stale. They are regenerated sequentially against the corrected canon rather than silently kept. The extraction itself can be wrong and must be checked.
+
+**Boundaries and honesty.** A draft gets at most one revision pass; a transport call gets at most one transient retry. Output tokens, per-episode spend, and total run spend are bounded, with call-level cost and latency events. Cost estimates use configurable prices and token assumptions, not provider guarantees. The first version uses one model, one local writer, and model-generated self-review; it does not claim independent quality evaluation, concurrent editing, or perfect state extraction. Human review remains the quality gate.

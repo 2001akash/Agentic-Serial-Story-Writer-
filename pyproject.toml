@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-serial-writer"
+version = "0.1.0"
+description = "A resumable, human-directed CLI for long-form serial fiction"
+requires-python = ">=3.11"
+dependencies = [
+	"groq>=0.11",
+	"python-dotenv>=1.0",
+]
+
+[project.scripts]
+serial-writer = "serial_writer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["serial_writer*"]

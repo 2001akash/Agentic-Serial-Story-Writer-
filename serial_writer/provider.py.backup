@@ -1,0 +1,81 @@
+from __future__ import annotations
+
+import json
+import os
+import time
+from dataclasses import dataclass
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+from typing import Any
+
+
+@dataclass
+class Completion:
+    data: dict[str, Any]
+    input_tokens: int
+    output_tokens: int
+    latency_seconds: float
+    cost_usd: float
+
+
+class OpenAICompatibleProvider:
+    """Small stdlib-only client for OpenAI-compatible chat completion APIs."""
+
+    def __init__(self) -> None:
+        self.provider = os.environ.get("STORY_PROVIDER", "openai").strip().lower()
+        if self.provider not in {"openai", "groq"}:
+            raise ValueError("STORY_PROVIDER must be 'openai' or 'groq'")
+        if self.provider == "groq":
+            self.api_key = os.environ.get("GROQ_API_KEY", "")
+            default_url = "https://api.groq.com/openai/v1"
+            default_model = "llama-3.3-70b-versatile"
+        else:
+            self.api_key = os.environ.get("OPENAI_API_KEY", "")
+            default_url = "https://api.openai.com/v1"
+            default_model = "gpt-4o-mini"
+        self.base_url = os.environ.get("STORY_BASE_URL", default_url).rstrip("/")
+        self.model = os.environ.get("STORY_MODEL", default_model)
+        self.input_price = float(os.environ.get("STORY_INPUT_USD_PER_MILLION", "0.15"))
+        self.output_price = float(os.environ.get("STORY_OUTPUT_USD_PER_MILLION", "0.60"))
+
+    def complete_json(self, messages: list[dict[str, str]], max_tokens: int) -> Completion:
+        if not self.api_key:
+            key_name = "GROQ_API_KEY" if self.provider == "groq" else "OPENAI_API_KEY"
+            raise RuntimeError(f"{key_name} is not set; configure it to call the model")
+        payload = json.dumps({
+            "model": self.model,
+            "messages": messages,
+            "temperature": 0.7,
+            "max_tokens": max_tokens,
+            "response_format": {"type": "json_object"},
+        }).encode("utf-8")
+        request = Request(
+            f"{self.base_url}/chat/completions",
+            data=payload,
+            headers={
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        started = time.perf_counter()
+        try:
+            with urlopen(request, timeout=150) as response:
+                response_data = json.loads(response.read().decode("utf-8"))
+        except HTTPError as error:
+            detail = error.read().decode("utf-8", errors="replace")[:1000]
+            raise RuntimeError(f"model HTTP {error.code}: {detail}") from error
+        except URLError as error:
+            raise RuntimeError(f"model connection failed: {error.reason}") from error
+        latency = time.perf_counter() - started
+        content = response_data["choices"][0]["message"]["content"]
+        if isinstance(content, list):
+            content = "".join(part.get("text", "") for part in content)
+        result = json.loads(content)
+        usage = response_data.get("usage", {})
+        input_tokens = int(usage.get("prompt_tokens", max(1, len(json.dumps(messages)) // 4)))
+        output_tokens = int(usage.get("completion_tokens", max(1, len(content) // 4)))
+        cost = (
+            input_tokens * self.input_price + output_tokens * self.output_price
+        ) / 1_000_000
+        return Completion(result, input_tokens, output_tokens, latency, cost)
