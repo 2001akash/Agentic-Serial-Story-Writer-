@@ -76,3 +76,7 @@ To reduce spend, use a low-cost model for outline and continuity extraction, res
 ## Known Limits
 
 This is a useful, auditable writing loop, not a guarantee of literary quality or perfect continuity. Canon extraction is model-generated and can omit implications; the rolling summary can drift; self-review is not an independent judge; and a human must review the plan, drafts, and any retroactive rewrite. The local JSON state is designed for one writer at a time, not concurrent processes or multi-user access. A live 200-episode demonstration, generated episode bundle, and screen recording require the evaluator's premise and model credentials; none are bundled as fabricated output.
+## Demo
+
+Screen recording: https://www.loom.com/share/130a3cbf1f134820916111e076726c1e
+
