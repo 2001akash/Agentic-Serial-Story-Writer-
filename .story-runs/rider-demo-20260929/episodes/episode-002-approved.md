@@ -1,0 +1,17 @@
+# Episode 2: Ghost in the Mailbox
+
+Alex rode the familiar loop of Avenue B, his ears tuned to the rhythm of the city and his eyes scanning the gray façades of Building 17. Each address he passed was a dead name, a hollow door that had seen no living breath since September 12, 2023. The first day he had stumbled upon a newspaper clipping in a package, a faded photograph of the 1923 fire that had gutted the third floor. The paper had been tucked inside a parcel for the 12th‑floor tenant, a man who had died that same day, and Alex had slipped it into the mailbox before the delivery was complete.
+
+The second day, the same route felt heavier. As he slid the key into the lock of the sixth‑floor door, he saw a new envelope on the doorstep. It was a plain, cream‑colored envelope, no stamps, no return address, but a symbol pressed into the top corner: an inverted triangle. The envelope was thin, almost translucent, and inside lay a single sheet of paper, a newspaper clipping that Alex had never seen before. The headline read, “Mysterious Deaths Plague Building 17.” The article, dated 1925, recounted a series of unexplained deaths over a five‑year span, all occurring on the same day of the week, each leaving behind a cryptic mark on the building’s walls. The article mentioned that the deaths were never solved, that the city had quietly sealed the case, and that no one had dared to investigate further.
+
+Alex turned the page. The photograph on the back showed a line of twelve shadows, each silhouette outlined in a faint, triangular shape. The caption read, “The Twelve: A Pattern, a Mystery.” The article ended with a chilling line: “Whoever left the marks knows more than they let on.”
+
+He felt the weight of the paper settle in his pocket. The envelope had been left on the doorstep, a silent invitation. He pressed the symbol into his palm, feeling its slight give. The inverted triangle seemed to pulse with a faint heat, a reminder of the fire’s embers still alive in the building’s bones.
+
+He pushed open the door to the seventh floor. The hallway was a ghost of its former self, the paint peeling, the light flickering. At the end of the corridor, a small mailbox sat beneath the old brass plaque that read “Building 17.” Alex slipped the envelope inside, the paper slipping through the slot as if it were a secret letter. He then took a photo of the mailbox with the symbol now etched on its surface and sent it to Maya Patel, the journalist who had called him after the first drop. Maya had been skeptical, but she was intrigued by the pattern she had found in her research—an odd cluster of deaths in a single building. She had hinted that the story was bigger than a single fire.
+
+The phone buzzed in Alex’s pocket. Maya’s voice came through, hushed and urgent. “You’re not alone in this, Alex. Someone else is watching, watching us. Keep your eyes open.”
+
+He turned back to the hallway, his heart racing. The hallway’s walls were lined with old photographs, each frame a ghost of a life once lived. He felt a cold draft brush against his cheek, as if the building itself were breathing. He heard a faint click behind him, the sound of a lock turning. He spun around, but the hallway was empty.
+
+The last thing he saw was the symbol on the mailbox, now illuminated by a single flicker of light from the hallway’s broken bulb. He felt the weight of the paper in his pocket, the question hanging in the air: Who left the clues behind?

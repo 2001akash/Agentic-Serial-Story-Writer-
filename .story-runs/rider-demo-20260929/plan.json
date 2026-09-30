@@ -1,0 +1,1543 @@
+{
+  "series_logline": "A delivery rider discovers that every address on their route belongs to a dead resident of the same building, forcing them to unravel a century‑old conspiracy while confronting their own mortality.",
+  "promise": "A tense, atmospheric mystery that blends supernatural intrigue with a deep exploration of grief, memory, and the hidden histories of urban spaces.",
+  "acts": [
+    {
+      "start_episode": 1,
+      "end_episode": 22
+    },
+    {
+      "start_episode": 23,
+      "end_episode": 44
+    },
+    {
+      "start_episode": 45,
+      "end_episode": 66
+    },
+    {
+      "start_episode": 67,
+      "end_episode": 88
+    },
+    {
+      "start_episode": 89,
+      "end_episode": 110
+    },
+    {
+      "start_episode": 111,
+      "end_episode": 132
+    },
+    {
+      "start_episode": 133,
+      "end_episode": 154
+    },
+    {
+      "start_episode": 155,
+      "end_episode": 176
+    },
+    {
+      "start_episode": 177,
+      "end_episode": 200
+    }
+  ],
+  "characters": [
+    {
+      "name": "Alex Mercer",
+      "role": "Delivery Rider",
+      "defining_facts": "Late 20s, haunted by a childhood loss, works nights for a courier app",
+      "relationships": [
+        "Maya Patel (ally, romantic tension)",
+        "Dr. Evelyn Lark (mentor)",
+        "Detective Luis Reyes (partner)",
+        "The Whisper (antagonist/guide)"
+      ],
+      "arc": "From detached courier to reluctant conduit between the living and the dead, Alex learns to accept mortality and becomes the key to resolving the century‑old mystery."
+    },
+    {
+      "name": "Maya Patel",
+      "role": "Investigative Journalist",
+      "defining_facts": "Mid‑30s, skeptical, driven by a desire for truth, works for a local newspaper",
+      "relationships": [
+        "Alex Mercer (ally, romantic tension)",
+        "Dr. Evelyn Lark (source)",
+        "Detective Luis Reyes (opponent turned ally)"
+      ],
+      "arc": "Starts as a cynical reporter chasing a sensational story, discovers the supernatural reality, and ultimately becomes Alex’s confidante and partner in unraveling the conspiracy."
+    },
+    {
+      "name": "Dr. Evelyn Lark",
+      "role": "Historian & Archivist",
+      "defining_facts": "Early 50s, specializes in urban legends, holds key records of the building’s past",
+      "relationships": [
+        "Alex Mercer (mentor)",
+        "Maya Patel (source)",
+        "The Whisper (former lover)"
+      ],
+      "arc": "Transitions from detached scholar to personally invested guardian of the building’s secrets, revealing the truth about the deaths."
+    },
+    {
+      "name": "Detective Luis Reyes",
+      "role": "Police Detective",
+      "defining_facts": "Late 40s, pragmatic, skeptical of the supernatural, assigned to the cold case unit",
+      "relationships": [
+        "Alex Mercer (partner)",
+        "Maya Patel (opponent)",
+        "Dr. Evelyn Lark (consultant)"
+      ],
+      "arc": "Moves from skeptic to believer, uses his investigative skills to protect Alex and help bring closure."
+    },
+    {
+      "name": "The Whisper",
+      "role": "Ghost of Building 17",
+      "defining_facts": "Former resident, died in a fire 120 years ago, possesses the ability to influence the living",
+      "relationships": [
+        "Alex Mercer (antagonist/guide)",
+        "Dr. Evelyn Lark (former lover)"
+      ],
+      "arc": "From vengeful spirit seeking retribution to seeking redemption and closure, ultimately aiding Alex in resolving the cycle of deaths."
+    },
+    {
+      "name": "Officer Chen",
+      "role": "Police Officer",
+      "defining_facts": "Early 30s, supportive, part of the precinct",
+      "relationships": [
+        "Detective Luis Reyes (colleague)",
+        "Alex Mercer (support)"
+      ],
+      "arc": "Provides logistical support and comic relief, grows to respect Alex’s mission."
+    }
+  ],
+  "long_threads": [
+    {
+      "id": "L1",
+      "question": "Who orchestrated the deaths?",
+      "introduced_episode": 1,
+      "planned_resolution_episode": 150
+    },
+    {
+      "id": "L2",
+      "question": "Can Alex bring the deceased to peace?",
+      "introduced_episode": 5,
+      "planned_resolution_episode": 180
+    },
+    {
+      "id": "L3",
+      "question": "What is the secret of Building 17?",
+      "introduced_episode": 10,
+      "planned_resolution_episode": 200
+    },
+    {
+      "id": "L4",
+      "question": "Will the city remember?",
+      "introduced_episode": 20,
+      "planned_resolution_episode": 190
+    }
+  ],
+  "guardrails": [
+    "Avoid explicit gore or gratuitous violence",
+    "Maintain a respectful tone toward death and grieving",
+    "No political propaganda or divisive content",
+    "Keep timeline consistent with the 200‑episode arc"
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "act": 1,
+      "title": "Dead Drop",
+      "dramatic_beat": "Alex delivers the first package and notices the name of a deceased resident on the address.",
+      "ending_hook": "Is the delivery route a list of ghosts?"
+    },
+    {
+      "number": 2,
+      "act": 1,
+      "title": "Ghost in the Mailbox",
+      "dramatic_beat": "Alex finds an old newspaper clipping about the building’s past, hinting at a pattern of mysterious deaths.",
+      "ending_hook": "Who left the clues behind?"
+    },
+    {
+      "number": 3,
+      "act": 1,
+      "title": "The Archivist",
+      "dramatic_beat": "Dr. Evelyn Lark shows Alex the building’s archive, revealing dates that all end in the same year.",
+      "ending_hook": "What is the significance of the missing dates?"
+    },
+    {
+      "number": 4,
+      "act": 1,
+      "title": "Paper Trail",
+      "dramatic_beat": "Maya Patel questions Alex’s credibility but is intrigued when a rumor about the building surfaces in her research.",
+      "ending_hook": "Will Maya join his quest?"
+    },
+    {
+      "number": 5,
+      "act": 1,
+      "title": "Unfinished Business",
+      "dramatic_beat": "Alex encounters The Whisper, who offers help if Alex can bring the dead residents peace.",
+      "ending_hook": "Can he trust a ghost?"
+    },
+    {
+      "number": 6,
+      "act": 1,
+      "title": "Ashes of the Past",
+      "dramatic_beat": "Alex learns the building once had a hidden basement where a fire destroyed 120 years ago.",
+      "ending_hook": "What lies beneath the floorboards?"
+    },
+    {
+      "number": 7,
+      "act": 1,
+      "title": "Cold Case",
+      "dramatic_beat": "Maya uncovers a pattern of unsolved deaths in the building’s cold case files.",
+      "ending_hook": "Who is responsible for the murders?"
+    },
+    {
+      "number": 8,
+      "act": 1,
+      "title": "Caretaker",
+      "dramatic_beat": "Alex and Maya confront the building’s caretaker, who hints at a secret society tied to the deaths.",
+      "ending_hook": "Is the caretaker the link to the past?"
+    },
+    {
+      "number": 9,
+      "act": 1,
+      "title": "The Skeptic",
+      "dramatic_beat": "Detective Luis Reyes doubts Alex’s supernatural claims but takes a key piece of evidence home.",
+      "ending_hook": "Can Reyes be convinced to help?"
+    },
+    {
+      "number": 10,
+      "act": 1,
+      "title": "The Secret of Building 17",
+      "dramatic_beat": "Alex discovers a hidden chamber with the original fire’s remains, revealing the true nature of Building 17.",
+      "ending_hook": "Will the truth about Building 17 change everything?"
+    },
+    {
+      "number": 11,
+      "act": 1,
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex receives a delivery that triggers a haunting memory of a funeral in the building.",
+      "ending_hook": "What if the next address holds the truth?"
+    },
+    {
+      "number": 12,
+      "act": 1,
+      "title": "Silent Witness",
+      "dramatic_beat": "Alex meets Maya at a café, and she reluctantly agrees to investigate the supernatural rumors.",
+      "ending_hook": "Can Maya believe what Alex sees?"
+    },
+    {
+      "number": 13,
+      "act": 1,
+      "title": "Archive of Shadows",
+      "dramatic_beat": "Alex and Maya visit Dr. Lark's office and uncover a dusty ledger listing all the building’s deceased residents.",
+      "ending_hook": "Does the ledger reveal a pattern?"
+    },
+    {
+      "number": 14,
+      "act": 1,
+      "title": "The Whisper's Warning",
+      "dramatic_beat": "The Whisper appears to Alex, warning him that the building’s curse will claim him next.",
+      "ending_hook": "Will Alex heed the warning or ignore it?"
+    },
+    {
+      "number": 15,
+      "act": 1,
+      "title": "Deadly Delivery",
+      "dramatic_beat": "Alex delivers to an address where a translucent figure demands a final farewell before vanishing.",
+      "ending_hook": "Can Alex survive the encounter?"
+    },
+    {
+      "number": 16,
+      "act": 1,
+      "title": "Revealing the Past",
+      "dramatic_beat": "Maya discovers a newspaper clipping about a 120‑year‑old fire that destroyed the building’s original structure.",
+      "ending_hook": "Does the fire link all the deaths?"
+    },
+    {
+      "number": 17,
+      "act": 1,
+      "title": "Conspiracy Unfolds",
+      "dramatic_beat": "Detective Reyes combs through cold‑case files and finds a hidden chain of property transfers tied to the deaths.",
+      "ending_hook": "Is Reyes uncovering a conspiracy?"
+    },
+    {
+      "number": 18,
+      "act": 1,
+      "title": "Murmurs of Memory",
+      "dramatic_beat": "Alex hears whispered recollections of residents’ last moments echoing through the stairwell.",
+      "ending_hook": "Can Alex piece together their stories?"
+    },
+    {
+      "number": 19,
+      "act": 1,
+      "title": "The Building's Secret",
+      "dramatic_beat": "Dr. Lark reveals a secret compartment beneath the lobby containing a map of the building’s original layout.",
+      "ending_hook": "What evidence will change everything?"
+    },
+    {
+      "number": 20,
+      "act": 1,
+      "title": "Memory's Edge",
+      "dramatic_beat": "Maya confronts the city council about the building’s hidden history, demanding a memorial be erected.",
+      "ending_hook": "Will the city erase or preserve the memory?"
+    },
+    {
+      "number": 21,
+      "act": "Act 1",
+      "title": "Echoes",
+      "dramatic_beat": "Alex discovers a hidden ledger in Building 17 listing names of past occupants, all deceased.",
+      "ending_hook": "Will the ledger reveal a pattern that points to a hidden killer?"
+    },
+    {
+      "number": 22,
+      "act": "Act 1",
+      "title": "Unseen",
+      "dramatic_beat": "Maya confronts Alex about the ledger, skeptical but intrigued, and hints at a rumor of a cursed building.",
+      "ending_hook": "Can Maya help Alex prove the supernatural claims to the police?"
+    },
+    {
+      "number": 23,
+      "act": "Act 2",
+      "title": "Threshold",
+      "dramatic_beat": "Alex and Maya investigate the building’s basement, encountering the Whisper who offers cryptic warnings.",
+      "ending_hook": "Will the Whisper’s warning save them or seal their fate?"
+    },
+    {
+      "number": 24,
+      "act": "Act 2",
+      "title": "Revelation",
+      "dramatic_beat": "Dr. Lark reveals that the building was built on a former asylum where a fire killed 120 residents, and the fire was never investigated.",
+      "ending_hook": "Did the fire hide a conspiracy that still lingers?"
+    },
+    {
+      "number": 25,
+      "act": "Act 2",
+      "title": "Shadows",
+      "dramatic_beat": "Luis discovers a pattern of unsolved deaths that match the building’s timeline, hinting at a serial killer.",
+      "ending_hook": "Is the killer still among the living, or is it a ghostly remnant?"
+    },
+    {
+      "number": 26,
+      "act": "Act 2",
+      "title": "Convergence",
+      "dramatic_beat": "Officer Chen finds a missing piece of evidence—a key—linking the fire to a corporate cover‑up.",
+      "ending_hook": "Will the key unlock the truth or lock them in danger?"
+    },
+    {
+      "number": 27,
+      "act": "Act 2",
+      "title": "Betrayal",
+      "dramatic_beat": "The Whisper confronts Alex with proof that the building’s architect was complicit in the deaths, revealing a personal vendetta.",
+      "ending_hook": "Can Alex confront the architect before the Whisper’s vengeance claims another life?"
+    },
+    {
+      "number": 28,
+      "act": "Act 2",
+      "title": "Break",
+      "dramatic_beat": "Maya publishes a breakthrough article exposing the cover‑up, attracting hostile attention from the corporation.",
+      "ending_hook": "Will the corporation retaliate, or will the truth empower the dead?"
+    },
+    {
+      "number": 29,
+      "act": "Act 2",
+      "title": "Collapse",
+      "dramatic_beat": "Alex and Luis race to prevent a planned demolition of Building 17 that would erase evidence and the remaining spirits.",
+      "ending_hook": "Can they stop the demolition before the last ghost is silenced?"
+    },
+    {
+      "number": 30,
+      "act": "Act 2",
+      "title": "Resonance",
+      "dramatic_beat": "In a tense confrontation, Alex channels the Whisper’s plea to bring closure to the victims, risking his own life.",
+      "ending_hook": "Will Alex’s sacrifice free the spirits or trap him in the building forever?"
+    },
+    {
+      "number": 31,
+      "act": 2,
+      "title": "Echoes in the Corridor",
+      "dramatic_beat": "Alex receives a delivery at a building where the address is the same as a 1930s murder, and The Whisper contacts him.",
+      "ending_hook": "Will the Whisper's warning change his route?"
+    },
+    {
+      "number": 32,
+      "act": 2,
+      "title": "Paper Trail",
+      "dramatic_beat": "Maya follows a lead that links the deaths to an old newspaper article about a fire, but the article is missing.",
+      "ending_hook": "Can the missing article be found before the next delivery?"
+    },
+    {
+      "number": 33,
+      "act": 2,
+      "title": "Silent Witness",
+      "dramatic_beat": "Alex discovers a hidden diary in the building that mentions a secret society, and Dr. Evelyn visits to interpret it.",
+      "ending_hook": "Does the society still influence the building?"
+    },
+    {
+      "number": 34,
+      "act": 2,
+      "title": "The Locked Stairwell",
+      "dramatic_beat": "Luis discovers a locked stairwell that was sealed after the fire, and Alex must unlock it to access the next address.",
+      "ending_hook": "What will Alex find in the sealed stairwell?"
+    },
+    {
+      "number": 35,
+      "act": 2,
+      "title": "Midnight Broadcast",
+      "dramatic_beat": "Maya broadcasts a live segment on the building's history, attracting attention from the city council.",
+      "ending_hook": "Will the council shut down the investigation?"
+    },
+    {
+      "number": 36,
+      "act": 2,
+      "title": "Ghost in the Mailbox",
+      "dramatic_beat": "Alex's delivery triggers a supernatural event that reveals the name of the orchestrator.",
+      "ending_hook": "Who is the orchestrator, and will Alex trust the revelation?"
+    },
+    {
+      "number": 37,
+      "act": 2,
+      "title": "The Hidden Ledger",
+      "dramatic_beat": "Alex finds a cryptic note left by The Whisper that points to a secret room beneath the building.",
+      "ending_hook": "Will Alex risk entering the forbidden room?"
+    },
+    {
+      "number": 38,
+      "act": 2,
+      "title": "Mayor’s Shadow",
+      "dramatic_beat": "Maya uncovers that the deaths were staged to conceal a 1920s mayoral corruption scandal.",
+      "ending_hook": "Will the mayor’s family still protect the secret?"
+    },
+    {
+      "number": 39,
+      "act": 2,
+      "title": "Ghostly Promise",
+      "dramatic_beat": "Dr. Lark provides an ancient map, and Alex and Maya must swear a promise to the apparition in the secret passage.",
+      "ending_hook": "Will Alex break his promise to save the ghost?"
+    },
+    {
+      "number": 40,
+      "act": 2,
+      "title": "Reyes’ Revelation",
+      "dramatic_beat": "Detective Reyes confesses his family’s link to the deaths and decides to join Alex’s quest.",
+      "ending_hook": "Will Reyes’ loyalty change the course of the investigation?"
+    },
+    {
+      "number": 41,
+      "act": 2,
+      "title": "Echoes of the Route",
+      "dramatic_beat": "Alex receives a cryptic note from The Whisper hinting the next delivery holds a key to the building’s ledger.",
+      "ending_hook": "Will the ledger reveal the orchestrator of the deaths?"
+    },
+    {
+      "number": 42,
+      "act": 2,
+      "title": "Maya’s Break",
+      "dramatic_beat": "Maya finds a 1920s fire clipping tied to the current address, forcing her to question her skepticism.",
+      "ending_hook": "Can Maya trust Alex to dig into the supernatural?"
+    },
+    {
+      "number": 43,
+      "act": 2,
+      "title": "Archivist’s Secret",
+      "dramatic_beat": "Dr. Lark shows Alex a sealed archive room with the original deed, but it requires a forgotten password.",
+      "ending_hook": "Who holds the password, and what will it unlock?"
+    },
+    {
+      "number": 44,
+      "act": 2,
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex discovers that all addresses belong to a single, abandoned building's former residents.",
+      "ending_hook": "Could the pattern be a deliberate message?"
+    },
+    {
+      "number": 45,
+      "act": 3,
+      "title": "First Contact",
+      "dramatic_beat": "The Whisper appears to Alex, demanding his help to stop the cycle.",
+      "ending_hook": "Will Maya believe Alex's supernatural claim?"
+    },
+    {
+      "number": 46,
+      "act": 3,
+      "title": "Skeptic's Shadow",
+      "dramatic_beat": "Reyes confronts Alex and demands proof, but a mysterious cold case file surfaces.",
+      "ending_hook": "Will Reyes risk his career to investigate?"
+    },
+    {
+      "number": 47,
+      "act": 3,
+      "title": "Hidden Ledger",
+      "dramatic_beat": "Dr. Lark shows Alex a sealed ledger that records the deaths.",
+      "ending_hook": "Does the ledger reveal a hidden society?"
+    },
+    {
+      "number": 48,
+      "act": 3,
+      "title": "Unfinished Farewell",
+      "dramatic_beat": "Alex attempts to communicate with a recent deceased, but the spirit resists.",
+      "ending_hook": "Can Alex truly bring peace?"
+    },
+    {
+      "number": 49,
+      "act": 3,
+      "title": "Corporate Veil",
+      "dramatic_beat": "Maya uncovers evidence linking a real estate developer to the building's demise.",
+      "ending_hook": "Who orchestrated the deaths?"
+    },
+    {
+      "number": 50,
+      "act": 3,
+      "title": "Rising Storm",
+      "dramatic_beat": "Alex, Maya, and Reyes race to stop the next delivery before the building's demolition.",
+      "ending_hook": "Will the city remember the lives lost?"
+    },
+    {
+      "number": 51,
+      "act": "Act 3",
+      "title": "Echoes of a Lost Delivery",
+      "dramatic_beat": "Alex finds a child’s letter in a dead address, hinting at a hidden safe beneath the building.",
+      "ending_hook": "Will the safe hold the key to the building’s secret?"
+    },
+    {
+      "number": 52,
+      "act": 3,
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex receives a delivery that triggers a memory of a 1920s fire, hinting the building’s past is linked to current deaths.",
+      "ending_hook": "Will The Whisper reveal the true cause of the fire?"
+    },
+    {
+      "number": 53,
+      "act": 3,
+      "title": "The Journalist's Lens",
+      "dramatic_beat": "Maya finds a suppressed 1920s article suggesting a cover‑up of the building’s tragedy.",
+      "ending_hook": "Can Maya’s article spark an investigation that exposes the conspiracy?"
+    },
+    {
+      "number": 54,
+      "act": 3,
+      "title": "Archive of Secrets",
+      "dramatic_beat": "Dr. Lark uncovers a hidden ledger listing residents’ death dates, pointing to a potential orchestrator.",
+      "ending_hook": "Does the ledger identify the mastermind behind the deaths?"
+    },
+    {
+      "number": 55,
+      "act": 3,
+      "title": "Detective's Doubt",
+      "dramatic_beat": "Reyes receives evidence of deliberate deaths, forcing him to question his skepticism.",
+      "ending_hook": "Will Reyes risk his career to help Alex confront the supernatural truth?"
+    },
+    {
+      "number": 56,
+      "act": 3,
+      "title": "Whispers in the Alley",
+      "dramatic_beat": "Alex follows The Whisper’s voice to a forgotten cellar where a relic may hold clues to the century‑old conspiracy.",
+      "ending_hook": "Can Alex retrieve the relic before the building’s authorities seal the cellar?"
+    },
+    {
+      "number": 57,
+      "act": 3,
+      "title": "The Night Shift",
+      "dramatic_beat": "Maya and Alex stake out the building, discovering a secret passage leading to the original fire site.",
+      "ending_hook": "Will the passage reveal the identity of the mastermind behind the deaths?"
+    },
+    {
+      "number": 58,
+      "act": 3,
+      "title": "Echo Chamber",
+      "dramatic_beat": "Reyes and Alex confront the caretaker, who denies knowledge but offers a hidden code.",
+      "ending_hook": "Will the code unlock the truth about the building’s cursed history?"
+    },
+    {
+      "number": 59,
+      "act": 3,
+      "title": "Echoes in the Delivery",
+      "dramatic_beat": "Alex stumbles upon a hidden ledger in a parcel, revealing that each death aligns with a forgotten fire code violation, and Maya’s skepticism is challenged when the ledger matches a story she’s been chasing.",
+      "ending_hook": "Can Alex decide whether to heed the Whisper’s ominous warning before the next delivery arrives?"
+    },
+    {
+      "number": 60,
+      "act": 3,
+      "title": "The Secret Beneath",
+      "dramatic_beat": "Alex confronts the Whisper and learns the fire was orchestrated by a secret society that used the building as a cover, while Maya uncovers a sealed room in the basement that might hold the truth.",
+      "ending_hook": "Will the sealed room expose the conspiracy, or will it unleash a new danger?"
+    },
+    {
+      "number": 61,
+      "act": 3,
+      "title": "Echoes in the Ledger",
+      "dramatic_beat": "Alex discovers a cryptic ledger detailing past deaths, hinting at a hidden pattern.",
+      "ending_hook": "Could the ledger be the key to stopping the deaths?"
+    },
+    {
+      "number": 62,
+      "act": 3,
+      "title": "Whispers of the Past",
+      "dramatic_beat": "Maya uncovers a suppressed newspaper article linking the deaths to a corporate cover‑up.",
+      "ending_hook": "Was the corporation involved in the fire that killed The Whisper?"
+    },
+    {
+      "number": 63,
+      "act": 3,
+      "title": "Foundations of Silence",
+      "dramatic_beat": "Dr. Lark deciphers an old map revealing a secret chamber beneath the lobby.",
+      "ending_hook": "What could be hidden in that room that ties to the deaths?"
+    },
+    {
+      "number": 64,
+      "act": 3,
+      "title": "Bargain with the Dead",
+      "dramatic_beat": "The Whisper demands Alex deliver a specific package to a forgotten address in exchange for the truth.",
+      "ending_hook": "Will Alex trust a ghost’s promise?"
+    },
+    {
+      "number": 65,
+      "act": 3,
+      "title": "Boardroom Secrets",
+      "dramatic_beat": "Luis finds a board meeting transcript mentioning a project called “Project Phoenix” linked to the building’s construction.",
+      "ending_hook": "Is Project Phoenix the cause of the deaths?"
+    },
+    {
+      "number": 66,
+      "act": 3,
+      "title": "Chronicle of Loss",
+      "dramatic_beat": "Alex and Maya map a timeline of deaths that points to a single, elusive individual.",
+      "ending_hook": "Who is the person behind all these tragedies?"
+    },
+    {
+      "number": 67,
+      "act": 4,
+      "title": "Weaponized Deliveries",
+      "dramatic_beat": "Alex realizes the package is a weapon and must choose between delivering it or exposing the truth.",
+      "ending_hook": "Will Alex become the instrument of destruction?"
+    },
+    {
+      "number": 68,
+      "act": 4,
+      "title": "Silent Voices",
+      "dramatic_beat": "Dr. Lark finds a family heirloom containing a hidden recording of The Whisper’s confession.",
+      "ending_hook": "Did The Whisper truly cause the fire or was it a scapegoat?"
+    },
+    {
+      "number": 69,
+      "act": 4,
+      "title": "Corporate Denials",
+      "dramatic_beat": "Luis and Maya confront the corporate heir, who denies involvement and reveals a plan to erase the building’s history.",
+      "ending_hook": "Can the truth survive the corporate shield?"
+    },
+    {
+      "number": 70,
+      "act": 4,
+      "title": "Final Countdown",
+      "dramatic_beat": "The team races to the hidden chamber to stop a ritual that will trigger the next death.",
+      "ending_hook": "Will they succeed before the clock strikes midnight?"
+    },
+    {
+      "number": 71,
+      "act": 4,
+      "title": "The Pact Revealed",
+      "dramatic_beat": "Alex reads a cryptic note that suggests the deaths were part of a bargain made a century ago.",
+      "ending_hook": "Will the pact be broken by the living?"
+    },
+    {
+      "number": 72,
+      "act": 4,
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Maya learns that the building's original owner hid a vault that may hold the key to stopping the deaths.",
+      "ending_hook": "Is the vault the key to stopping the deaths?"
+    },
+    {
+      "number": 73,
+      "act": 4,
+      "title": "Whisper's Name",
+      "dramatic_beat": "A sealed letter reveals the Whisper’s true identity and his promise to protect the building.",
+      "ending_hook": "Can the Whisper keep his promise?"
+    },
+    {
+      "number": 74,
+      "act": 4,
+      "title": "Underneath the City",
+      "dramatic_beat": "Luis discovers a hidden tunnel connecting all the buildings on the block.",
+      "ending_hook": "Will the tunnel reveal the mastermind?"
+    },
+    {
+      "number": 75,
+      "act": 4,
+      "title": "Bargain in the Dark",
+      "dramatic_beat": "The Whisper offers Alex a deal: deliver a specific package to break the cycle, at the cost of his own life.",
+      "ending_hook": "Will Alex accept the price of his own death?"
+    },
+    {
+      "number": 76,
+      "act": 4,
+      "title": "The Forgotten Room",
+      "dramatic_beat": "Maya finds a hidden chamber containing the original pact’s contract, which may undo the curse.",
+      "ending_hook": "What is written in the contract that could undo the curse?"
+    },
+    {
+      "number": 77,
+      "act": 4,
+      "title": "The Ledger of Lost Lives",
+      "dramatic_beat": "Alex finds a hidden ledger in Building 17 that lists every deceased resident, revealing a pattern tied to the deaths.",
+      "ending_hook": "What if the ledger can predict the next death?"
+    },
+    {
+      "number": 78,
+      "act": 4,
+      "title": "Society of Shadows",
+      "dramatic_beat": "Maya shows Alex a sealed basement plan, uncovering a secret society that once owned the building.",
+      "ending_hook": "Will the basement hold the society's key?"
+    },
+    {
+      "number": 79,
+      "act": 4,
+      "title": "Circle of Binding",
+      "dramatic_beat": "In the basement, Alex and Maya discover a cryptic ritual circle and a locked box containing a spectral presence.",
+      "ending_hook": "Does the specter want to end the cycle or continue it?"
+    },
+    {
+      "number": 80,
+      "act": 4,
+      "title": "Cursed Witness",
+      "dramatic_beat": "The specter reveals itself as the original owner, cursed to watch the deaths, and offers Alex a choice to break the curse.",
+      "ending_hook": "Can Alex break the curse before the next delivery?"
+    },
+    {
+      "number": 81,
+      "act": "Act 4",
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex receives a mysterious delivery from Building 17 that contains a locket with a photo of a long‑dead family.",
+      "ending_hook": "Will the locket unlock more hidden truths about the building's curse?"
+    },
+    {
+      "number": 82,
+      "act": "Act 4",
+      "title": "The Whispering Mail",
+      "dramatic_beat": "The Whisper contacts Alex through a glitch in the app, demanding the return of a stolen heirloom.",
+      "ending_hook": "Can Alex trust a ghost's request, or will it lead to another death?"
+    },
+    {
+      "number": 83,
+      "act": "Act 4",
+      "title": "Maya's Lead",
+      "dramatic_beat": "Maya uncovers a newspaper clipping linking a 1920s fire to the current deaths, but the source is sealed.",
+      "ending_hook": "Will the sealed archive reveal the architect of the tragedy?"
+    },
+    {
+      "number": 84,
+      "act": "Act 4",
+      "title": "Reckoning in the Hall",
+      "dramatic_beat": "Alex confronts Dr. Lark about the sealed records, and she reluctantly agrees to help after a chilling vision.",
+      "ending_hook": "Will Dr. Lark's knowledge expose a conspiracy that could destroy the building's reputation?"
+    },
+    {
+      "number": 85,
+      "act": "Act 4",
+      "title": "The Fireman's Diary",
+      "dramatic_beat": "Luis discovers a diary from a firefighter who survived the 1920 fire, hinting at a hidden vault.",
+      "ending_hook": "Does the vault hold evidence that could free the spirits or trap them forever?"
+    },
+    {
+      "number": 86,
+      "act": "Act 4",
+      "title": "Ghosts in the Wiring",
+      "dramatic_beat": "Alex and Maya hack the building's security system to access the vault, but the lights flicker with spectral warnings.",
+      "ending_hook": "Will the security breach trigger a chain reaction that brings the ghosts back to life?"
+    },
+    {
+      "number": 87,
+      "act": "Act 4",
+      "title": "The Whisper's Bargain",
+      "dramatic_beat": "The Whisper offers Alex a deal: help him find the lost artifact, and he'll release the trapped souls.",
+      "ending_hook": "Is the artifact worth the risk of unleashing an ancient curse?"
+    },
+    {
+      "number": 88,
+      "act": "Act 4",
+      "title": "Unraveling the Past",
+      "dramatic_beat": "Officer Chen discovers that the building's original blueprint was altered to conceal a tunnel.",
+      "ending_hook": "Will the tunnel lead to the heart of the conspiracy, or to a dead end?"
+    },
+    {
+      "number": 89,
+      "act": "Act 5",
+      "title": "The Final Address",
+      "dramatic_beat": "Alex delivers the last package to the building's original owner, a descendant who knows the secret.",
+      "ending_hook": "Will the descendant reveal the truth, or will the city forget again?"
+    },
+    {
+      "number": 90,
+      "act": "Act 5",
+      "title": "The City Remembered",
+      "dramatic_beat": "Alex, Maya, and Luis confront the city council with evidence, risking their safety.",
+      "ending_hook": "Can they stop the redevelopment that would erase the building, or will history be erased forever?"
+    },
+    {
+      "number": 91,
+      "act": 5,
+      "title": "Echoes in the Courtyard",
+      "dramatic_beat": "Alex finds a hidden diary in the basement that shows a pattern in the deaths.",
+      "ending_hook": "Will the diary point to the next victim?"
+    },
+    {
+      "number": 92,
+      "act": 5,
+      "title": "Maya's Hunch",
+      "dramatic_beat": "Maya discovers a newspaper clipping linking the building to a 1920s fire.",
+      "ending_hook": "Does the fire's date match the death dates?"
+    },
+    {
+      "number": 93,
+      "act": 5,
+      "title": "The Whisper's Warning",
+      "dramatic_beat": "The Whisper urges Alex to stop delivering to a specific address.",
+      "ending_hook": "Will Alex heed the warning and risk missing a delivery?"
+    },
+    {
+      "number": 94,
+      "act": 5,
+      "title": "Reckoning at the Gate",
+      "dramatic_beat": "Alex confronts Dr. Lark, who gives him an old photograph of the building.",
+      "ending_hook": "Does the photograph reveal a hidden compartment?"
+    },
+    {
+      "number": 95,
+      "act": 5,
+      "title": "Detective's Doubt",
+      "dramatic_beat": "Luis Reyes finds evidence of a police cover-up in the files.",
+      "ending_hook": "Can he prove it to the department?"
+    },
+    {
+      "number": 96,
+      "act": 5,
+      "title": "Ghostly Footprint",
+      "dramatic_beat": "The delivery map shows a new address that wasn't on the app.",
+      "ending_hook": "Is this a trap set by the Whisper?"
+    },
+    {
+      "number": 97,
+      "act": 5,
+      "title": "Maya's Deadline",
+      "dramatic_beat": "Maya receives a deadline from her editor to publish the story.",
+      "ending_hook": "Will she sacrifice truth for a story?"
+    },
+    {
+      "number": 98,
+      "act": 5,
+      "title": "The Building's Secret",
+      "dramatic_beat": "Alex and Maya discover a sealed room beneath the lobby.",
+      "ending_hook": "What lies in the sealed room?"
+    },
+    {
+      "number": 99,
+      "act": 5,
+      "title": "Confronting the Past",
+      "dramatic_beat": "Alex reads the names of the deceased and sees a pattern.",
+      "ending_hook": "Does the pattern point to a single orchestrator?"
+    },
+    {
+      "number": 100,
+      "act": 5,
+      "title": "Crossroads",
+      "dramatic_beat": "Alex must choose between saving a living resident or closing the cycle.",
+      "ending_hook": "Will his choice end the cycle or start a new one?"
+    },
+    {
+      "number": 101,
+      "act": "Act 5",
+      "title": "Echoes of Silence",
+      "dramatic_beat": "Alex confronts the last ghost in Building 17, revealing the Whisper’s true motive.",
+      "ending_hook": "Can the Whisper’s confession finally break the cycle?"
+    },
+    {
+      "number": 102,
+      "act": "Act 5",
+      "title": "Shattered Records",
+      "dramatic_beat": "Maya uncovers a hidden ledger that ties the deaths to a forgotten philanthropist.",
+      "ending_hook": "Will the ledger expose a living conspirator?"
+    },
+    {
+      "number": 103,
+      "act": "Act 5",
+      "title": "Midnight Confrontation",
+      "dramatic_beat": "Dr. Lark faces a spectral apparition demanding the truth about the fire that claimed Building 17.",
+      "ending_hook": "Can Lark survive the revelation?"
+    },
+    {
+      "number": 104,
+      "act": "Act 5",
+      "title": "The Whisper’s Pact",
+      "dramatic_beat": "Alex negotiates with the Whisper, offering a chance for redemption in exchange for a key deed.",
+      "ending_hook": "Will Alex accept the price of the pact?"
+    },
+    {
+      "number": 105,
+      "act": "Act 5",
+      "title": "City’s Pulse",
+      "dramatic_beat": "Luis discovers evidence that the city council orchestrated the original tragedy to acquire land.",
+      "ending_hook": "Can Luis bring the council to justice before the deadline?"
+    },
+    {
+      "number": 106,
+      "act": "Act 5",
+      "title": "Ghostly Ledger",
+      "dramatic_beat": "Officer Chen helps Alex decode the ledger’s cryptic symbols to locate the hidden safe.",
+      "ending_hook": "Will the safe contain the truth or a trap?"
+    },
+    {
+      "number": 107,
+      "act": "Act 5",
+      "title": "Final Delivery",
+      "dramatic_beat": "Alex delivers the key to the safe, triggering a cascade of memories from the dead residents.",
+      "ending_hook": "Will the memories bring closure or unleash new horrors?"
+    },
+    {
+      "number": 108,
+      "act": "Act 5",
+      "title": "The Last Address",
+      "dramatic_beat": "Maya confronts the surviving heir of the philanthropist, demanding answers about the century-old deaths.",
+      "ending_hook": "Will the heir confess or vanish into darkness?"
+    },
+    {
+      "number": 109,
+      "act": "Act 5",
+      "title": "Reckoning",
+      "dramatic_beat": "Luis and Alex confront the council’s chief, armed with evidence and the Whisper’s testimony.",
+      "ending_hook": "Can they stop the final execution of the conspiracy?"
+    },
+    {
+      "number": 110,
+      "act": "Act 5",
+      "title": "Aftermath",
+      "dramatic_beat": "The city mourns the lost, and Alex reflects on the cost of truth, while the Whisper fades into peace.",
+      "ending_hook": "Will Alex finally accept his own mortality?"
+    },
+    {
+      "number": 111,
+      "act": "Act 6",
+      "title": "Echoes in the Package",
+      "dramatic_beat": "Alex receives a cryptic message from The Whisper through the package.",
+      "ending_hook": "Will the package contain evidence that the deaths were intentional?"
+    },
+    {
+      "number": 112,
+      "act": "Act 6",
+      "title": "Photographic Clues",
+      "dramatic_beat": "Maya investigates the package and finds a hidden photograph of the building 120 years ago.",
+      "ending_hook": "Does the photograph reveal a missing person who could be the orchestrator?"
+    },
+    {
+      "number": 113,
+      "act": "Act 6",
+      "title": "Ledger of Shadows",
+      "dramatic_beat": "Dr. Evelyn Lark consults old city archives and discovers a ledger of unexplained deaths.",
+      "ending_hook": "Will that resident be the next target?"
+    },
+    {
+      "number": 114,
+      "act": "Act 6",
+      "title": "Hidden Compartment",
+      "dramatic_beat": "Detective Luis Reyes interrogates the resident and finds a hidden compartment with a letter.",
+      "ending_hook": "Does the letter implicate the building's original owner?"
+    },
+    {
+      "number": 115,
+      "act": "Act 6",
+      "title": "The Sealed Box",
+      "dramatic_beat": "Alex and Maya follow the letter's clues to an abandoned storage room and uncover a sealed box with artifacts from the fire.",
+      "ending_hook": "Could the artifacts be the key to stopping the cycle?"
+    },
+    {
+      "number": 116,
+      "act": "Act 6",
+      "title": "Obeying the Ghost",
+      "dramatic_beat": "The Whisper appears, demanding Alex deliver the box to the fire altar, forcing him to wrestle with obeying a ghost.",
+      "ending_hook": "Will Alex sacrifice his safety to fulfill the ghost's wish?"
+    },
+    {
+      "number": 117,
+      "act": "Act 6",
+      "title": "The Fire Altar",
+      "dramatic_beat": "Alex delivers the box, triggering an ancient mechanism that releases a spectral entity.",
+      "ending_hook": "Is the entity the orchestrator of the deaths?"
+    },
+    {
+      "number": 118,
+      "act": "Act 6",
+      "title": "Maya's Revelation",
+      "dramatic_beat": "Maya confronts The Whisper and learns that the ghost was once a conspirator.",
+      "ending_hook": "Can Maya trust a ghost who betrayed her?"
+    },
+    {
+      "number": 119,
+      "act": "Act 6",
+      "title": "Descendant's Motive",
+      "dramatic_beat": "Detective Luis Reyes discovers the orchestrator is a descendant of the original owner and confronts him.",
+      "ending_hook": "Will the descendant reveal the true motive behind the deaths?"
+    },
+    {
+      "number": 120,
+      "act": "Act 6",
+      "title": "Final Trap",
+      "dramatic_beat": "Alex and Maya set a trap at the building's foundation to end the curse.",
+      "ending_hook": "Will the trap succeed before the next death occurs?"
+    },
+    {
+      "number": 121,
+      "act": 6,
+      "title": "Echoes in the Mail",
+      "dramatic_beat": "Alex decodes a hidden message in a package that points to a former mayor's name.",
+      "ending_hook": "Could the mayor's legacy be the key to the murders?"
+    },
+    {
+      "number": 122,
+      "act": 6,
+      "title": "Journalistic Reckoning",
+      "dramatic_beat": "Maya uses her investigative skills to find a newspaper clipping linking the deaths to a city ordinance.",
+      "ending_hook": "Will the ordinance still be enforceable after a century?"
+    },
+    {
+      "number": 123,
+      "act": 6,
+      "title": "Map of Secrets",
+      "dramatic_beat": "Dr. Lark provides Alex with an archival map revealing a hidden passage that connects all the dead residents' addresses.",
+      "ending_hook": "Can Alex navigate the passage without triggering another death?"
+    },
+    {
+      "number": 124,
+      "act": 6,
+      "title": "Masked Witness",
+      "dramatic_beat": "Luis discovers surveillance footage of a masked figure at the building during the first recorded death, which turns out to be a reflection of The Whisper.",
+      "ending_hook": "Is The Whisper manipulating the police?"
+    },
+    {
+      "number": 125,
+      "act": 6,
+      "title": "Locked Diary",
+      "dramatic_beat": "Officer Chen retrieves a key that opens a safe in Building 17, revealing a diary of the original owner that mentions a pact with a secret society.",
+      "ending_hook": "Does the society still hold power in the city?"
+    },
+    {
+      "number": 126,
+      "act": 6,
+      "title": "The Whisper's Bargain",
+      "dramatic_beat": "Alex confronts The Whisper, who offers to reveal the orchestrator if Alex frees the trapped spirits.",
+      "ending_hook": "Will freeing the spirits end the cycle of deaths?"
+    },
+    {
+      "number": 127,
+      "act": 6,
+      "title": "Council's Secret",
+      "dramatic_beat": "Maya uncovers that the city council voted to demolish Building 17 but never did due to a supernatural clause tied to a promise made to the dead residents.",
+      "ending_hook": "What happens if the promise is broken?"
+    },
+    {
+      "number": 128,
+      "act": 6,
+      "title": "Family Ties",
+      "dramatic_beat": "Dr. Lark finds evidence that the orchestrator is a descendant of the original owner, revealed to be the current mayor's aide.",
+      "ending_hook": "Can the aide's influence be turned against the pact?"
+    },
+    {
+      "number": 129,
+      "act": 6,
+      "title": "Ritual Countdown",
+      "dramatic_beat": "Luis and Alex race to stop the mayor's aide from performing a ritual that would cement the pact, infiltrating his office to discover a hidden altar.",
+      "ending_hook": "Will the ritual be completed before the clock strikes midnight?"
+    },
+    {
+      "number": 130,
+      "act": 6,
+      "title": "The Ledger's Shadow",
+      "dramatic_beat": "Alex finds a hidden ledger in the building’s basement, listing names tied to the century‑old deaths, and realizes the orchestrator is a figure from the city’s founding era.",
+      "ending_hook": "Can Alex bring the ledger’s revelations to light before the city’s anniversary ceremony swallows the truth?"
+    },
+    {
+      "number": 131,
+      "act": 6,
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex deciphers a hidden ledger that names a single architect as the orchestrator of the deaths.",
+      "ending_hook": "Is the architect still alive in the city’s underbelly?"
+    },
+    {
+      "number": 132,
+      "act": 6,
+      "title": "Final Delivery",
+      "dramatic_beat": "Alex delivers a package to the building’s foundation, triggering a spectral confrontation with The Whisper.",
+      "ending_hook": "Will the Whisper finally surrender the curse?"
+    },
+    {
+      "number": 133,
+      "act": 7,
+      "title": "The Journalist's Dilemma",
+      "dramatic_beat": "Maya publishes a preliminary expose, but the city council threatens her sources.",
+      "ending_hook": "Can Maya protect her informants while keeping the story afloat?"
+    },
+    {
+      "number": 134,
+      "act": 7,
+      "title": "Archive of Secrets",
+      "dramatic_beat": "Dr. Lark uncovers a sealed city ledger that links the deaths to a forgotten ordinance.",
+      "ending_hook": "Does the ordinance still hold legal power?"
+    },
+    {
+      "number": 135,
+      "act": 7,
+      "title": "Detective's Reckoning",
+      "dramatic_beat": "Luis confronts a corrupt official who knows the ordinance’s origins, risking his badge.",
+      "ending_hook": "Will the official turn a blind eye to the supernatural?"
+    },
+    {
+      "number": 136,
+      "act": 7,
+      "title": "Ghostly Warning",
+      "dramatic_beat": "The Whisper appears in Alex’s dream, demanding he deliver a confession to the city hall.",
+      "ending_hook": "Will Alex obey, risking his own life?"
+    },
+    {
+      "number": 137,
+      "act": 7,
+      "title": "Confrontation at City Hall",
+      "dramatic_beat": "Alex and Maya stake out city hall, discovering a hidden chamber beneath the council chambers.",
+      "ending_hook": "What lies hidden beneath the city’s foundation?"
+    },
+    {
+      "number": 138,
+      "act": 7,
+      "title": "The Architect's Legacy",
+      "dramatic_beat": "They find the architect’s original blueprint, revealing a design that channels the building’s souls.",
+      "ending_hook": "Can the blueprint be altered to stop the deaths?"
+    },
+    {
+      "number": 139,
+      "act": 7,
+      "title": "Breaking the Cycle",
+      "dramatic_beat": "Alex uses the blueprint to redirect the building’s energy, but the Whisper resists.",
+      "ending_hook": "Will the Whisper allow the cycle to end?"
+    },
+    {
+      "number": 140,
+      "act": 7,
+      "title": "Aftermath",
+      "dramatic_beat": "The city mourns the deaths, while Alex contemplates his newfound role as mediator.",
+      "ending_hook": "Is Alex ready to accept his destiny?"
+    },
+    {
+      "number": 141,
+      "act": "Act 7",
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex uncovers a hidden ledger revealing that every death was tied to a clandestine ritual.",
+      "ending_hook": "Is the ledger a map to the mastermind behind the deaths?"
+    },
+    {
+      "number": 142,
+      "act": "Act 7",
+      "title": "The Whisper's Warning",
+      "dramatic_beat": "The Whisper appears to Alex, offering cryptic clues about the ritual's origin.",
+      "ending_hook": "Can Alex trust a spirit that once opposed him?"
+    },
+    {
+      "number": 143,
+      "act": "Act 7",
+      "title": "The Archive's Secret",
+      "dramatic_beat": "Dr. Lark deciphers a forgotten city ordinance that links the building to a 19th-century society.",
+      "ending_hook": "Does this society still influence the present?"
+    },
+    {
+      "number": 144,
+      "act": "Act 7",
+      "title": "Maya's Revelation",
+      "dramatic_beat": "Maya discovers surveillance footage showing a masked figure entering the building at the time of each death.",
+      "ending_hook": "Who is the masked figure and why did Maya not see them?"
+    },
+    {
+      "number": 145,
+      "act": "Act 7",
+      "title": "Revealing the Past",
+      "dramatic_beat": "Alex and Maya piece together that the masked figure is a descendant of the original society, still orchestrating the deaths.",
+      "ending_hook": "Will the descendant reveal themselves or flee deeper into secrecy?"
+    },
+    {
+      "number": 146,
+      "act": "Act 7",
+      "title": "Confronting the Legacy",
+      "dramatic_beat": "Alex confronts the descendant, learning that the deaths were a twisted ritual to preserve the building's \"living history\".",
+      "ending_hook": "Can Alex break the cycle without destroying the building?"
+    },
+    {
+      "number": 147,
+      "act": "Act 7",
+      "title": "The Final Ledger",
+      "dramatic_beat": "Dr. Lark finds the original ledger's final entry, hinting at a hidden chamber beneath the building.",
+      "ending_hook": "Is the chamber a safe haven or a trap?"
+    },
+    {
+      "number": 148,
+      "act": "Act 7",
+      "title": "Into the Depths",
+      "dramatic_beat": "The trio descends into the hidden chamber, discovering evidence of the century-old conspiracy.",
+      "ending_hook": "Does the chamber hold the key to ending the deaths, or will it claim them too?"
+    },
+    {
+      "number": 149,
+      "act": "Act 7",
+      "title": "The Whisper's Choice",
+      "dramatic_beat": "The Whisper offers Alex a choice: release the spirits or seal the chamber forever.",
+      "ending_hook": "Which path will Alex choose, and what will it cost?"
+    },
+    {
+      "number": 150,
+      "act": "Act 7",
+      "title": "Final Reckoning",
+      "dramatic_beat": "Alex decides to seal the chamber, preventing future deaths but locking the spirits in a timeless limbo, thus resolving the orchestrated deaths.",
+      "ending_hook": "Will sealing the chamber free the spirits, or will it bind them forever?"
+    },
+    {
+      "number": 151,
+      "act": 7,
+      "title": "The Quiet After the Storm",
+      "dramatic_beat": "Alex discovers that the final delivery of the night is a package addressed to a name that never existed, hinting that the dead are not yet fully settled.",
+      "ending_hook": "Will the missing address be the key to freeing the ghosts?"
+    },
+    {
+      "number": 152,
+      "act": 7,
+      "title": "Echoes in the Corridor",
+      "dramatic_beat": "Maya confronts Dr. Lark about a suppressed archive that reveals a pattern of deaths aligning with a century‑old ritual.",
+      "ending_hook": "Could the ritual be the source of the building's curse?"
+    },
+    {
+      "number": 153,
+      "act": 7,
+      "title": "Whisper's Lament",
+      "dramatic_beat": "The Whisper appears to Alex, demanding the truth about the fire that killed its loved ones, forcing Alex to choose between safety and truth.",
+      "ending_hook": "Will Alex trust the ghost's motives and risk his own life?"
+    },
+    {
+      "number": 154,
+      "act": 7,
+      "title": "Final Revelation",
+      "dramatic_beat": "Alex confronts The Whisper and learns the century‑old ritual that binds the building.",
+      "ending_hook": "Will Alex accept the responsibility to break the cycle?"
+    },
+    {
+      "number": 155,
+      "act": 8,
+      "title": "Hidden Ledger",
+      "dramatic_beat": "Maya uncovers a missing ledger linking the deaths to a long‑forgotten city councilman.",
+      "ending_hook": "Will the councilman be exposed?"
+    },
+    {
+      "number": 156,
+      "act": 8,
+      "title": "Skeptic's Choice",
+      "dramatic_beat": "Luis experiences a supernatural event and reluctantly agrees to help Alex.",
+      "ending_hook": "Will Luis trust Alex enough to aid the investigation?"
+    },
+    {
+      "number": 157,
+      "act": 8,
+      "title": "Covenant Unveiled",
+      "dramatic_beat": "Dr. Lark shows Alex a sealed room containing the original covenant that caused the deaths.",
+      "ending_hook": "Can the covenant be broken?"
+    },
+    {
+      "number": 158,
+      "act": 8,
+      "title": "Bargain of Silence",
+      "dramatic_beat": "The Whisper offers Alex a bargain to silence the building's curse in exchange for a specific package.",
+      "ending_hook": "Will Alex deliver the package?"
+    },
+    {
+      "number": 159,
+      "act": 8,
+      "title": "Guarded Escape",
+      "dramatic_beat": "Officer Chen provides intel on the city guard's schedule to help Alex reach the final address.",
+      "ending_hook": "Will they reach the last address in time?"
+    },
+    {
+      "number": 160,
+      "act": 8,
+      "title": "Final Delivery",
+      "dramatic_beat": "Alex delivers the package, confronting the last dead resident and facing his own mortality.",
+      "ending_hook": "Will the cycle end or will a new one begin?"
+    },
+    {
+      "number": 161,
+      "act": 8,
+      "title": "The Ledger Revealed",
+      "dramatic_beat": "Alex discovers a hidden ledger listing every death in Building 17.",
+      "ending_hook": "Is the ledger the key to stopping the next death?"
+    },
+    {
+      "number": 162,
+      "act": 8,
+      "title": "Missing Entry",
+      "dramatic_beat": "Maya finds a missing death entry that was never recorded.",
+      "ending_hook": "Who covered up this disappearance?"
+    },
+    {
+      "number": 163,
+      "act": 8,
+      "title": "Caretaker’s Warning",
+      "dramatic_beat": "The caretaker hints at a secret society behind the deaths.",
+      "ending_hook": "Could the society be responsible for the deaths?"
+    },
+    {
+      "number": 164,
+      "act": 8,
+      "title": "Hidden Map",
+      "dramatic_beat": "Dr. Lark deciphers a map showing a hidden room beneath the building.",
+      "ending_hook": "What lies in that hidden room?"
+    },
+    {
+      "number": 165,
+      "act": 8,
+      "title": "Old Fire Connection",
+      "dramatic_beat": "Reyes links a 120‑year‑old police report to the current death pattern.",
+      "ending_hook": "Does the fire tie the deaths together?"
+    },
+    {
+      "number": 166,
+      "act": 8,
+      "title": "The Whisper Appears",
+      "dramatic_beat": "Alex experiences a vision of The Whisper, offering a bargain.",
+      "ending_hook": "Will Alex trust the Whisper's bargain?"
+    },
+    {
+      "number": 167,
+      "act": 8,
+      "title": "Powerful Threat",
+      "dramatic_beat": "Maya’s article attracts a powerful figure who threatens to shut down the investigation.",
+      "ending_hook": "Who is the powerful figure, and why do they care?"
+    },
+    {
+      "number": 168,
+      "act": 8,
+      "title": "Ritual Altar",
+      "dramatic_beat": "Alex and Luis discover a ritual altar in the hidden room used to seal the deaths.",
+      "ending_hook": "Can they perform the ritual to free the spirits?"
+    },
+    {
+      "number": 169,
+      "act": 8,
+      "title": "Legacy Unveiled",
+      "dramatic_beat": "Lark shows evidence linking the original owner to the secret society and deaths.",
+      "ending_hook": "Does the owner’s legacy still influence the present?"
+    },
+    {
+      "number": 170,
+      "act": 8,
+      "title": "Echoes of the Final Delivery",
+      "dramatic_beat": "Alex discovers that the key to freeing the trapped souls lies in a hidden ledger buried beneath the building's foundation, but The Whisper warns that retrieving it will awaken a dormant curse.",
+      "ending_hook": "Will Alex risk unleashing the curse to liberate the dead, or will the city’s past swallow him whole?"
+    },
+    {
+      "number": 171,
+      "act": 8,
+      "title": "Echoes of the Delivery",
+      "dramatic_beat": "Alex receives a package addressed to the former owner of Building 17, which contains a faded photograph of the fire.",
+      "ending_hook": "Will the photograph unlock the key to the building's hidden ledger?"
+    },
+    {
+      "number": 172,
+      "act": 8,
+      "title": "The Whisper's Ledger",
+      "dramatic_beat": "Dr. Lark decodes the ledger, revealing a list of names tied to the fire, each marked with a cryptic symbol.",
+      "ending_hook": "Does the symbol point to a living descendant who still holds the secret?"
+    },
+    {
+      "number": 173,
+      "act": 8,
+      "title": "Midnight Investigation",
+      "dramatic_beat": "Maya infiltrates the basement archives under the pretense of a story, discovering a sealed room with the original fire blueprint.",
+      "ending_hook": "Could the blueprint expose the true cause of the century-old deaths?"
+    },
+    {
+      "number": 174,
+      "act": 8,
+      "title": "Reckoning",
+      "dramatic_beat": "Alex confronts The Whisper, who offers a bargain: release the dead in exchange for exposing the conspiracy.",
+      "ending_hook": "Will Alex accept the bargain and risk his own life?"
+    },
+    {
+      "number": 175,
+      "act": 8,
+      "title": "Final Delivery",
+      "dramatic_beat": "With Luis's help, Alex delivers the truth to city officials, but The Whisper's final apparition threatens to erase the evidence.",
+      "ending_hook": "Can Alex save the city’s memory before the last echo vanishes?"
+    },
+    {
+      "number": 176,
+      "act": 8,
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex finds a hidden diary in the last delivery that reveals a pattern linking all deaths to a single event.",
+      "ending_hook": "Will the diary’s final page unlock the truth?"
+    },
+    {
+      "number": 177,
+      "act": 9,
+      "title": "Unraveling Threads",
+      "dramatic_beat": "Maya confronts Alex about the supernatural evidence, forcing him to admit he can hear The Whisper.",
+      "ending_hook": "Can Alex trust a ghost with his life?"
+    },
+    {
+      "number": 178,
+      "act": 9,
+      "title": "The Whisper’s Bargain",
+      "dramatic_beat": "The Whisper offers Alex a deal to stop the cycle, but demands he confront his own grief.",
+      "ending_hook": "Will Alex sacrifice his freedom for peace?"
+    },
+    {
+      "number": 179,
+      "act": 9,
+      "title": "Final Delivery",
+      "dramatic_beat": "Alex and Luis race to deliver a critical package that could silence the building’s curse, while Officer Chen discovers a hidden room.",
+      "ending_hook": "Will the package contain the key to ending the deaths?"
+    },
+    {
+      "number": 180,
+      "act": 9,
+      "title": "Convergence",
+      "dramatic_beat": "Alex uses the package to confront the source of the deaths, realizing the conspiracy was tied to a forgotten city ordinance.",
+      "ending_hook": "Can Alex bring the deceased to peace before the building burns again?"
+    },
+    {
+      "number": 181,
+      "act": 9,
+      "title": "Echoes in the Alley",
+      "dramatic_beat": "Alex discovers a hidden ledger in the basement of Building 17 that lists the victims and a pattern linking them to a secret society.",
+      "ending_hook": "Will the ledger reveal the true identity of the orchestrator?"
+    },
+    {
+      "number": 182,
+      "act": 9,
+      "title": "Maya's Break",
+      "dramatic_beat": "Maya confronts her denial by interviewing a living relative of one of the dead, uncovering evidence that the deaths were staged.",
+      "ending_hook": "Can Maya convince Alex that the supernatural is real?"
+    },
+    {
+      "number": 183,
+      "act": 9,
+      "title": "The Whisper's Bargain",
+      "dramatic_beat": "The Whisper offers Alex a chance to free the trapped souls in exchange for revealing the location of the century‑old artifact.",
+      "ending_hook": "Will Alex trust the Whisper or risk the souls again?"
+    },
+    {
+      "number": 184,
+      "act": 9,
+      "title": "City's Memory",
+      "dramatic_beat": "Luis and Officer Chen dig into city archives and find a forgotten ordinance that could erase the building's history.",
+      "ending_hook": "Will the city erase the building and the truth?"
+    },
+    {
+      "number": 185,
+      "act": 9,
+      "title": "Final Delivery",
+      "dramatic_beat": "Alex delivers the artifact to the heart of Building 17, triggering a cascade that restores the souls and unravels the conspiracy.",
+      "ending_hook": "Does the act of delivery end the cycle or set the stage for a new one?"
+    },
+    {
+      "number": 186,
+      "act": 9,
+      "title": "Final Deliveries",
+      "dramatic_beat": "Alex confronts The Whisper’s last request to unlock the sealed vault beneath Building 17.",
+      "ending_hook": "Will unlocking the vault expose the truth behind the century‑old deaths?"
+    },
+    {
+      "number": 187,
+      "act": 9,
+      "title": "Maya's Revelation",
+      "dramatic_beat": "Maya uncovers evidence that the city council secretly funded the building’s original construction to cover the fire.",
+      "ending_hook": "Can Maya persuade the council to acknowledge the tragedy before the next anniversary?"
+    },
+    {
+      "number": 188,
+      "act": 9,
+      "title": "Luis's Decision",
+      "dramatic_beat": "Luis decides to present forensic data linking the deaths to a supernatural phenomenon, risking his career.",
+      "ending_hook": "Will Luis’s testimony hold in court against the city’s denial?"
+    },
+    {
+      "number": 189,
+      "act": 9,
+      "title": "Echoes of 1923",
+      "dramatic_beat": "Alex and Dr. Lark trace the 1923 fire’s path and find a hidden passage that may hold the curse’s source.",
+      "ending_hook": "Will the passage lead to the entity that orchestrated the deaths?"
+    },
+    {
+      "number": 190,
+      "act": 9,
+      "title": "Remembering the Forgotten",
+      "dramatic_beat": "The city holds a memorial for the building’s lost residents, but the owners refuse to admit the past.",
+      "ending_hook": "Will the memorial be enough to keep the dead from haunting the living?"
+    },
+    {
+      "number": 191,
+      "act": 18,
+      "title": "Echoes of the Past",
+      "dramatic_beat": "Alex confronts the Whisper, who shows him a hidden ledger linking each death to a secret society.",
+      "ending_hook": "Can Alex trust a ghost with a hidden agenda?"
+    },
+    {
+      "number": 192,
+      "act": 18,
+      "title": "The Ledger's Secret",
+      "dramatic_beat": "Maya uncovers a pattern of financial favors in the ledger that hint at a modern crime syndicate.",
+      "ending_hook": "Will the ledger expose a contemporary conspiracy?"
+    },
+    {
+      "number": 193,
+      "act": 18,
+      "title": "Shadows in the Archive",
+      "dramatic_beat": "Dr. Lark deciphers the ledger’s code, revealing a pact made 120 years ago between the building’s founders and a clandestine group.",
+      "ending_hook": "What was the true purpose of the pact?"
+    },
+    {
+      "number": 194,
+      "act": 19,
+      "title": "City's Memory",
+      "dramatic_beat": "Detective Reyes confronts city officials about the building’s planned demolition, citing the discovered pact and the forgotten residents.",
+      "ending_hook": "Will the city finally honor the forgotten residents?"
+    },
+    {
+      "number": 195,
+      "act": 19,
+      "title": "Final Delivery",
+      "dramatic_beat": "Alex delivers a symbolic package to the sealed foundation, releasing the spirits and sealing the pact.",
+      "ending_hook": "Will the city rebuild or erase the past forever?"
+    },
+    {
+      "number": 196,
+      "act": "Act 9",
+      "title": "Final Reckoning",
+      "dramatic_beat": "Alex faces The Whisper in the fire‑scarred basement, realizing the curse hinges on a forgotten oath.",
+      "ending_hook": "Will Alex's choice free the building's lost souls, or will the ancient pact be renewed?"
+    },
+    {
+      "number": 197,
+      "act": 9,
+      "title": "The Ledger Unveiled",
+      "dramatic_beat": "Alex, Maya, and Luis break into the city archive and find the ledger that reveals Building 17’s secret ritual binding the dead.",
+      "ending_hook": "Will the city leaders accept the truth and free the spirits, or will they seal the ledger and silence the past?"
+    },
+    {
+      "number": 198,
+      "act": 9,
+      "title": "Final Delivery",
+      "dramatic_beat": "Alex delivers a cryptic package to Building 17, confronting The Whisper and uncovering the hidden truth behind the century-old fire, forcing a choice between exposing the past or protecting the city.",
+      "ending_hook": "Will Alex choose to reveal the truth and risk the city’s collapse, or keep the secret to preserve its fragile memory?"
+    },
+    {
+      "number": 199,
+      "act": 9,
+      "title": "The Final Key",
+      "dramatic_beat": "Alex discovers the hidden ledger in Building 17 that reveals the true mastermind behind the century‑old deaths, but the ledger is guarded by a spectral echo that demands a choice.",
+      "ending_hook": "Will Alex unlock Building 17's hidden chamber and finally end the cycle of deaths?"
+    },
+    {
+      "number": 200,
+      "act": 9,
+      "title": "The Final Whisper",
+      "dramatic_beat": "Alex confronts The Whisper and learns that Building 17 was a living memorial, its residents bound by a century‑old pact to protect the city’s forgotten histories",
+      "ending_hook": "Will the city remember the sacrifices, or will the secret of Building 17 be sealed once more?"
+    }
+  ]
+}
