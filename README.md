@@ -63,7 +63,7 @@ Set `STORY_PROVIDER` to `groq` or `openai`. Groq uses `GROQ_API_KEY` and default
 
 `plan.json` is the editable 200-episode arc. Planning first creates a series blueprint, then requests outlines in batches of five. Partial valid responses are checkpointed and only missing episode numbers are requested again. Each completed batch is checkpointed in `run.json`; rerun `plan` after an interruption to continue without repeating completed outlines. Each run persists to `run.json`; approved episode text is also written as Markdown. Only approved episodes update canon. Drafting context is layered: the current episode outline and act, the rolling summary, a character/fact/open-thread ledger, the five most recent episode summaries, upcoming milestones, and accumulated editor guidance. Full prior prose is not repeatedly sent to the model.
 
-The writer returns prose plus a continuity delta and a self-review in structured JSON. Up to two revision passes are allowed when the self-review flags a problem or the prose misses 400-700 words; the revisions explicitly target about 500 words. The result still waits for human approval. Approval feedback becomes durable guidance for later episodes. Editing an approved episode triggers a continuity extraction and marks dependent later episodes stale instead of silently treating them as valid.
+The writer returns prose plus a continuity delta and a self-review in structured JSON. Up to four revision passes are allowed when the self-review flags a problem or the prose misses 400-700 words; the revisions explicitly target about 500 words. The result still waits for human approval. Approval feedback becomes durable guidance for later episodes. Editing an approved episode triggers a continuity extraction and marks dependent later episodes stale instead of silently treating them as valid.
 
 Calls have a token ceiling, one transient retry, a per-episode cost cap, and a run budget. Calls, attempts, latency, token counts, estimated cost, failures, approvals, and rewrites are recorded. A response that would cross a budget is not accepted into the story state.
 
@@ -75,8 +75,17 @@ To reduce spend, use a low-cost model for outline and continuity extraction, res
 
 ## Known Limits
 
-This is a useful, auditable writing loop, not a guarantee of literary quality or perfect continuity. Canon extraction is model-generated and can omit implications; the rolling summary can drift; self-review is not an independent judge; and a human must review the plan, drafts, and any retroactive rewrite. The local JSON state is designed for one writer at a time, not concurrent processes or multi-user access. A live 200-episode demonstration, generated episode bundle, and screen recording require the evaluator's premise and model credentials; none are bundled as fabricated output.
+This is a useful, auditable writing loop, not a guarantee of literary quality or perfect continuity. Canon extraction is model-generated and can omit implications; the rolling summary can drift; self-review is not an independent judge; and a human must review the plan, drafts, and any retroactive rewrite. The local JSON state is designed for one writer at a time, not concurrent processes or multi-user access. The submitted demo bundle contains the 200-episode plan and 15 approved episodes for the provided premise; it does not claim to contain all 200 written episodes.
 ## Demo
+
+The demo run `rider-demo-20260929` contains the full 200-episode arc plan at `.story-runs/rider-demo-20260929/plan.json` and the approved episode Markdown files under `.story-runs/rider-demo-20260929/episodes/`.
+
+The run state records approval feedback as persistent editor guidance. Two examples in the submitted run show it carrying forward:
+
+- After episode 8, the editor asked to keep the Keepers unverified until Maya checked the archive. In episode 9, Maya says the copy matches the archive stamp but that she does not know what the group believed.
+- After episode 9, the editor asked to keep Reyes skeptical and the message unexplained. Episode 10 leaves open whether someone forged the plan or whether something stranger is happening.
+
+The recording demonstrates the draft and approval flow; the approved episode files and run history provide the submitted story output and feedback record.
 
 Screen recording: https://www.loom.com/share/130a3cbf1f134820916111e076726c1e
 
